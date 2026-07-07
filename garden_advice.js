@@ -1,6 +1,6 @@
-// Hardcoded values for the season and plant type
-let season = "summer"; // TODO: Replace with prompt() to allow user interaction.
+// Prompting user for input
 let plantType = prompt(`Which plant type do you require advice for? (flower, vegetable)`);
+let season = prompt(`Which season do you need advice for? (spring, summer, autumn, winter)`);
 
 // Variable to hold gardening advice
 let advice = "";
